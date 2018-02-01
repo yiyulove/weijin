@@ -1,0 +1,16 @@
+.nav li a{
+	height: 100px;
+	display: block;
+	line-height: 100px;
+	padding-top: 0;
+	box-sizing: border-box;
+}
+
+.n li:hover{
+	border-bottom: 3px red solid;
+	box-sizing: border-box;
+	
+}
+.navbar{
+	margin-bottom: 0;
+}
