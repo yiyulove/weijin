@@ -1,16 +1,182 @@
-.nav li a{
-	height: 100px;
-	display: block;
-	line-height: 100px;
-	padding-top: 0;
-	box-sizing: border-box;
+a {
+  text-decoration: none;
 }
-
-.n li:hover{
-	border-bottom: 3px red solid;
-	box-sizing: border-box;
-	
+.nav li .touzi {
+  height: 100px;
+  display: block;
+  line-height: 100px;
+  padding-top: 0;
+  box-sizing: border-box;
 }
-.navbar{
-	margin-bottom: 0;
+.n li:hover {
+  border-bottom: 3px red solid;
+  box-sizing: border-box;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.baozhang {
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+@font-face {
+  font-family: "wjs font";
+  src: url('../fonts/MiFie-Web-Font.eot');
+  /* IE9*/
+  src: url('../fonts/MiFie-Web-Font.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/MiFie-Web-Font.woff') format('woff'), /* chrome、firefox */ url('../fonts/MiFie-Web-Font.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../fonts/MiFie-Web-Font.svg#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.wjs_font {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'wjs font';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wjs_E901::before {
+  content: "\e901";
+}
+.baozhang ul li .wjs_font {
+  font-size: 40px;
+  float: left;
+}
+.baozhang ul li div {
+  float: left;
+  line-height: 40px;
+}
+.baozhang ul li {
+  float: left;
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+.b {
+  width: 100%;
+  margin: 0 auto;
+  border: #808080 solid 1px;
+}
+.row span {
+  line-height: 30px;
+  color: #808080;
+}
+.row .media p {
+  color: #808080;
+}
+.row .media:hover .span2 {
+  color: red;
+}
+.row .media:hover span,
+p {
+  color: red;
+}
+.s {
+  font-size: 14px;
+  width: 80px;
+  height: 22px;
+  line-height: 10px;
+  color: white;
+  margin-bottom: 5px;
+}
+.row a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-decoration: none;
+}
+.fangda {
+  font-size: 40px;
+}
+.span1 {
+  font-size: 20px;
+  text-align: center;
+}
+.span2 {
+  font-size: 10px;
+}
+.container-fluid {
+  border: none;
+}
+.fangxiao {
+  width: 80px;
+  height: 50px;
+  margin-top: -10px;
+}
+.content a:nth-child(3) {
+  color: red;
+}
+.content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.right a {
+  float: right;
+  color: gray;
+  line-height: 50px;
+}
+.content2 {
+  width: 100%;
+}
+.rights {
+  float: right;
+}
+.widths {
+  height: 30px;
+}
+.actives {
+  background: skyblue;
+  border-bottom: 3px solid red;
+}
+.reddiv {
+  width: 100%;
+  height: 150px;
+  background: red;
+}
+.reddivs {
+  box-shadow: 2px 2px 3px grey;
+  height: 150px;
+  background: blue;
+}
+.reddivs .rows .reddiv {
+  background: red;
+  height: 150px;
+}
+.reddivs .rows .reddiv .row1 .reddiv-left {
+  border-right: 1px  dashed white;
+  position: absolute;
+}
+.reddivs .rows .reddiv .row1 .reddiv-left .xinshou {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.reddivs .rows .reddiv .row1 .reddiv-left .manpeng {
+  width: 100%;
+  height: 60px;
+}
+.reddivs .rows .reddiv .row1 .reddiv-left .manpeng .fl-l {
+  width: 50%;
+}
+.reddivs .rows .reddiv .row1 .reddiv-left .manpeng .fl-l p {
+  font-size: 10px;
+  color: white;
+}
+.reddivs .rows .reddiv .row1 .reddiv-left .manpeng .fl-r p {
+  font-size: 10px;
+  color: white;
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: skyblue;
 }
